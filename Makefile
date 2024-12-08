@@ -95,7 +95,7 @@ XDIR=/usr/X11R6
 #XAW=Xaw
 XAW=Xaw3d
 
-XLIBS=-L$(XDIR)/lib -L/opt/local/lib -l$(XAW) -lXext -lXmu -lXt -lSM -lICE -lX11
+XLIBS=-L$(XDIR)/lib -l$(XAW) -lXext -lXmu -lXt -lSM -lICE -lX11
 
 XINC=-I$(XDIR)/include
 CFLAGS+=$(XINC)
